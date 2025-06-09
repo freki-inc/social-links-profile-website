@@ -53,7 +53,6 @@
         font-size: 16px;
         line-height: 1.5;
         color: var(--font-pcolor);
-        background-color: var(--layout-backgroundcolor);
     }
 
     h1 {
@@ -71,5 +70,38 @@
 
     a:hover {
         text-decoration: underline;
+    }
+}
+
+@layer layout {
+
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: var(--layout-backgroundcolor);
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        background-color: var(--layout-cardcolor);
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .card button {
+        background-color: var(--layout-cardbuttoncolor);
+        color: var(--font-anchorcolor);
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .card button:hover {
+        opacity: 0.8;
     }
 }
