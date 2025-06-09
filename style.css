@@ -26,3 +26,20 @@
     src: url('./assets/fonts/inter-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
     }
 }
+
+@layer colors {
+    :root {
+        /* Color palette */
+        --color-white: hsl(0, 0%, 100%);
+        --color-green: hsl(75, 94%, 57%);
+        --color-grey-700: hsl(0, 0%, 20%);
+        --color-grey-800: hsl(0, 0%, 12%);
+        --color-grey-900: hsl(0, 0%, 8%);
+        /* Layout colors */
+        --layout-backgroundcolor: var(--color-grey-900);
+        --layout-h1color: var(--color-white);
+        --layout-h2color: var(--color-green);
+        --layout-cardcolor: var(--color-grey-800);
+        --layout-cardbuttoncolor: var(--color-grey-700);
+    }
+}
