@@ -92,7 +92,7 @@
         margin: 20px;
     }
 
-    .card button {
+    .card-button {
         background-color: var(--layout-cardbuttoncolor);
         color: var(--font-anchorcolor);
         border: none;
@@ -101,7 +101,7 @@
         cursor: pointer;
     }
 
-    .card button:hover {
+    .card-button:hover {
         opacity: 0.8;
     }
 }
