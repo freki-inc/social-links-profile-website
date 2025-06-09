@@ -79,6 +79,7 @@
         color: var(--font-anchorcolor);
         text-decoration: none;
         font-size: 14px;
+        font-weight: 700;
         margin: 0.5rem 1rem;
     }
 
@@ -98,7 +99,7 @@
         margin: 0;
         padding: 0;
         width: 100vw;
-        height: 98vh;
+        height: 97vh;
     }
 
     main {
@@ -110,10 +111,14 @@
         height: 100%;
     }
 
+    section.card {
+        height: 610px;
+    }
+
     .card {
         background-color: var(--layout-cardcolor);
         border-radius: 10px;
-        padding: calc(42 / 16 * 1rem);
+        padding: calc(35 / 16 * 1rem);
         margin: calc(20 / 16 * 1rem);
         width: 23%;
         height: 100%;
@@ -136,7 +141,7 @@
         color: var(--font-anchorcolor);
         border: none;
         padding: calc(15 / 16 * 1rem);
-        margin-bottom: calc(14 / 16 * 1rem);
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
         width: 100%;
         border-radius: 7px;
         cursor: pointer;
@@ -158,6 +163,6 @@
     }
 
     footer {
-        height: 2%;
+        height: 3%;
     }
 }
