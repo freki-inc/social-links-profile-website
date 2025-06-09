@@ -37,9 +37,12 @@
         --color-grey-900: hsl(0, 0%, 8%);
         /* Layout colors */
         --layout-backgroundcolor: var(--color-grey-900);
-        --layout-h1color: var(--color-white);
-        --layout-h2color: var(--color-green);
         --layout-cardcolor: var(--color-grey-800);
         --layout-cardbuttoncolor: var(--color-grey-700);
+        /* Font colors */
+        --font-h1color: var(--color-white);
+        --font-h2color: var(--color-green);
+        --font-pcolor: var(--color-white);
+        --font-anchorcolor: var(--color-white);
     }
 }
