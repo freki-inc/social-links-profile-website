@@ -128,7 +128,7 @@
     }
 
     section.card {
-        height: 610px;
+        height: 560px;
 
         @media (width <= 768px) {
             height: calc(550 / 16 * 1rem); /* 550px */; 
